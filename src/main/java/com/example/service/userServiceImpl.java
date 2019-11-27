@@ -37,6 +37,12 @@ public class userServiceImpl implements UserService {
 		userInterface.save(updateEmp);
 
 	}
+	
+	public Employee saveUser(Employee emp){
+		
+		userInterface.save(emp);
+		return emp;
+	}
 
 	public void deleteUserInfo(int id) {
 

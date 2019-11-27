@@ -14,4 +14,6 @@ public interface UserService {
 	void updateUserInfo(Employee emp, String firstName);
 	
 	void deleteUserInfo(int id);
+	
+	Employee saveUser(Employee emp);
 }
